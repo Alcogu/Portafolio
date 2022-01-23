@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Area visible del navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fuente Fjalla One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <!-- fuente source sans pro 400 y 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Portafolio</title>
+
+    <!-- Icono Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- Link a CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Media Query -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Mis trabajos</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#sobreMi">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Contactame</a>
+                    </li>
+                </ol>
+            </nav>
+        </div> 
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>
+                ¡¡¡Hola!!! <strong>Soy Alexander Correa Gutiérrez</strong>
+                Estudiante de último semestre de Ingenieria en Sistemas
+            </h1>
+            <img class="heroImg" src="img/yo.jpg"  alt="imagen de portada" id="imgPortada">
+        </div>
+    </section>
+
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2 class="aboutMeListTitle">Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="projectDetails">
+                    <h3 class="projectTitle">Braveheart</h3>
+                    <h5 class="projectLenguaje"><strong>Python - Pygame</strong></h5>
+                    <p class="projectDate"><small><strong>Fecha:</strong> Primer Semestre 2021</small></p>
+                    <p class="projectURL" ><small><strong>Puedes descargarlo en:</strong> <a class= "link" target="_blank" href="https://github.com/Alcogu/Juego-Pygame">Link del juego</a></small></p>
+                    <p class="projectDescription">Este juego se desarrollo con el fin de cumplir los requerimientos propuestos en la asignatura Computación Gráfica</p>
+                </div>
+                <figure class="projectImgContainer">
+                    <img class="projectImg" src="img/juego.png" alt="juego pygame">
+                </figure>
+            </article>
+
+        <article class="project">
+            <div class="projectDetails">
+                <h3 class="projectTitle">Blog para articulos</h3>
+                <h5 class="projectLenguaje"><strong>Python - Django</strong></h5>
+                <p class="projectDate"><small><strong>Fecha:</strong> 2020</small></p>
+                <p class="projectURL" ><small><strong>Puedes verlo en:</strong> <a class= "link" target="_blank" href="https://github.com/Alcogu/Master-Python">Link del blog</a></small></p>
+                <p class="projectDescription">En este blog se puede gestionar información de 
+                    articulos referentes a cualquier contenido, estos se relacionan a una empresa 
+                    y sus servicios</p>
+            </div>
+            <figure class="projectImgContainer">
+                <img class="projectImg" src="img/Django.png" alt="juego pygame">
+            </figure>
+        </article>
+        
+        </div>      
+    </section>
+
+    <div class="container">
+        <h2 class="aboutMeListTitle">Sobre mi</h2>
+    </div>
+    
+    <section id="sobreMi" class="aboutMeList">
+        <div class="container">
+
+            <article class="aboutMe">
+                <figure class="aboutMeImgContainer">
+                    <img class="frontEndImg" src="img/jr.jpg" alt="homero">
+                </figure>
+                <div class="aboutMeDetail">
+                    <h3 class="aboutMeTitle">Programador Front-End</h3>
+                    <p class="aboutMeDescription">Me encuentro reforzando y aprendiendo cada vez mas
+                        sobre el desarrollo Front-End para así mejorar mis habilidades como programador.
+                    </p>
+                </div>
+            </article>
+                
+            <article class="aboutMe">
+                <figure class="aboutMeImgContainer">
+                    <img class="aboutMeImg" src="img/Habilidades-blandas.jpg" alt="homero">
+                </figure>
+                <div class="aboutMeDetail">
+                    <h3 class="aboutMeTitle">Habilidades Blandas</h3>
+                    <p class="aboutMeDescription">Me considero una persona con un fuerte empatia, tengo
+                        una buena organizaciónde respecto a mis tareas, soy muy asertivo a la hora de
+                        comunicarme con los demás y muy imparcial en la toma de decisiones.
+                    </p>
+                </div>
+            </article>
+
+            <article class="aboutMe">
+                <figure class="aboutMeImgContainer">
+                    <img class="iscUTPImg" src="img/ISC UTP.jpg" alt="homero">
+                </figure>
+                <div class="aboutMeDetail">
+                    <h3 class="aboutMeTitle">Estudiante Ingenieria en Sistemas</h3>
+                    <p class="aboutMeDescription">En este momento me encuentro cursando el último
+                        semestre de la carrera ingenieria de Sistemas y Computación en la universidad
+                        tecnológica de Pereira UTP.
+                    </p>
+                </div>
+            </article>
+                
+            <article class="aboutMe">
+                <figure class="aboutMeImgContainer">
+                    <img class="aboutMeImg" src="img/voley.jpg" alt="homero">
+                </figure>
+                <div class="aboutMeDetail">
+                    <h3 class="aboutMeTitle">Apasionado por el Voleyball</h3>
+                    <p class="aboutMeDescription">Entusiasta y apasionado por jugar Voleyball cada
+                        vez que se pueda, siempre competitivo y con la intensión de divertirme.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="" class="formEmail">
+                <h3 class="contactTitle">Contactame</h3>
+                <label for="email">Dejame tu e-mail</label>
+                <input type="text" placeholder="e-mail" id="email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/alexander.correagutierrez/" class="socialLink facebook"></a>
+                <a target="_blank" href="https://github.com/Alcogu" class="socialLink github"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/alexander-correa-gutierrez-635ba41b5/" class="socialLink linkedin"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div>
+                <p>Copyright 2021©</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

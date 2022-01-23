@@ -1,0 +1,277 @@
+:root{
+    --color-verde:rgb(13, 156, 37);
+    --color-gris:rgb(241, 236, 236);
+    --fuente-titulos: 'Fjalla one', sans-serif;
+    --fuente-cuerpo: 'Source Sans pro', sans-serif;
+}
+
+header{
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+header img{
+    height: 120px;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    /* arriba y abajo con 0 e izquierda y derecha con 10 */
+    padding: 0 10px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.portfolio{
+    background-color: var(--color-gris);
+    padding: 20px;
+}
+
+body{
+    font-family: var(--fuente-cuerpo);
+    background-color: var(--color-gris);
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fuente-titulos);
+}
+
+h1{
+    font-size: 40px;
+    /* espacios entre lineas */
+    line-height: 1.5em;
+    color: white;
+    /*Valores para arriba abajo izquierda y derecha*/
+    margin: 0;
+}
+
+h1 strong {
+    color: var(--color-verde);
+}
+
+h2{
+    color: var(--color-verde);
+    /* Pone todo en mayusculas */
+    text-transform: uppercase;
+    font-family: var(--fuente-cuerpo);
+    margin-bottom: 40px;
+}
+
+.hero{
+    height: 450px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* esto desacomoda la imagen del hero */
+    /* flex-wrap: wrap; */
+}
+
+.heroImg{
+    object-fit: cover;
+    height: 450px;
+}
+
+.project{
+    /*tiene las propiedades tamaño tipo estilo*/
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectLenguaje, .projectDate, .projectURL{
+    margin: 10px 0px;
+}
+
+.projectDescription{
+    font-size: 20px;
+}
+
+.project strong{
+    font-family: var(--fuente-titulos);
+    font-size: 15px;
+}
+
+.projectTitle{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;    
+}
+
+.projectDetails{
+    width: 50%;
+}
+
+.projectImgContainer{
+    width: 50%;
+}
+
+.projectImgContainer img{
+    max-width: 100%;
+}
+
+.aboutMeList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMe{
+    margin: 1%;
+    width: 48%;
+    /* para que siempre se ocupe el tamaño designado */
+    flex-shrink: 0;
+    border-radius: 10px;
+    /* genera scroll con hidden oculta lo que se desborde */
+    overflow: hidden;
+    background: #f1f7fa;
+}
+
+.aboutMe img{
+    width: 100%;
+    height: 300px;
+}
+
+.aboutMeDetail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color:white;
+    /* posiciona en sobreposicion */
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutMeDescription{
+    text-align: left;
+}
+
+.aboutMeListTitle{
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--fuente-titulos);
+}
+
+.contact{
+    background-color: var(--color-verde);
+    color: white;
+    height: 150px;
+    display: flex;
+    /* Alineasion dentro del display flex */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.socialLink{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.socialLink.facebook{
+    background-image: url('/img/facebook.svg');
+}
+
+.socialLink.github{
+    background-image: url('/img/github.svg');
+}
+
+.socialLink.linkedin{
+    background-image: url('/img/linkedin.svg');
+}
+
+.formEmail input{
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('/img/mail.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:5px;
+}
+
+.formEmail button{
+    display: block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.formEmail h3{
+    font-family: var(--fuente-cuerpo);
+}
+
+.container{
+    max-width: 1000px;
+    /* width: 100%; */
+    /* Toma todo el ancho disponible */
+    flex: 1;
+    /* Se centra contenido */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer img{
+    width: 300px;
+}
+
+.footer p{
+    margin: 0px;
+    padding: 0px;
+}
