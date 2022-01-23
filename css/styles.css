@@ -210,17 +210,14 @@ h2{
 
 .socialLink.facebook{
     background-image: url(../img/facebook.svg);
-    z-index: 1;
 }
 
 .socialLink.github{
     background-image: url(../img/github.svg);
-    z-index: 1;
 }
 
 .socialLink.linkedin{
     background-image: url(../img/linkedin.svg);
-    z-index: 1;
 }
 
 .formEmail input{
@@ -229,7 +226,6 @@ h2{
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
     background-image: url(../img/mail.svg);
-    z-index: 1;
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -263,6 +259,10 @@ h2{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+#btEnviar:hover{
+    cursor: pointer;
 }
 
 .footer{
