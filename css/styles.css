@@ -104,6 +104,10 @@ h2{
     height: 450px;
 }
 
+small{
+    font-size: 17px;
+}
+
 .project{
     /*tiene las propiedades tamaño tipo estilo*/
     border: 1px solid white;
