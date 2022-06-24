@@ -75,6 +75,7 @@ h1{
     color: white;
     /*Valores para arriba abajo izquierda y derecha*/
     margin: 0;
+    
 }
 
 h1 strong {
@@ -185,6 +186,7 @@ small{
 
 .aboutMeDescription{
     text-align: left;
+    height: 70px;
 }
 
 .aboutMeListTitle{
