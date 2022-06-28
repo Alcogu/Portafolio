@@ -195,8 +195,8 @@ small{
 .contact{
     background-color: var(--color-verde-fondo);
     color: white;
-    height: 150px;
-    padding-top:10px;
+    height: 130px;
+    padding-top:20px;
     display: block;
     /* Alineasion dentro del display flex */
     align-items: center;
