@@ -8,10 +8,17 @@
 
 .navbar{
     background-color: var(--color-verde-fondo);
+    text-align: center;
+    justify-content: center;
+}
+
+#header{
+    padding: 0;
 }
 
 #header img{
-    height: 120px;
+    height: 70px;
+    
 }
 
 figure{
