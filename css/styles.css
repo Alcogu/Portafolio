@@ -21,11 +21,6 @@
     
 }
 
-figure{
-    margin: 0;
-    align-items: center;
-}
-
 .portfolio{
     background-color: var(--color-gris);
     padding: 20px;
@@ -48,7 +43,6 @@ h1{
     color: white;
     /*Valores para arriba abajo izquierda y derecha*/
     margin: 0;
-    
 }
 
 h1 strong {
@@ -195,10 +189,6 @@ small{
 
 .socialLink.linkedin{
     background-image: url(../img/linkedin.svg);
-}
-
-.formEmail h3{
-    font-family: var(--fuente-cuerpo);
 }
 
 .container2{
