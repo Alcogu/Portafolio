@@ -7,49 +7,16 @@
 }
 
 .navbar{
-    color: white;
     background-color: var(--color-verde-fondo);
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
 }
 
-.navbar img{
+#header img{
     height: 120px;
-}
-
-ol{
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 figure{
     margin: 0;
     align-items: center;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    height: inherit;
-    /* arriba y abajo con 0 e izquierda y derecha con 10 */
-    padding: 0 10px;
-}
-
-.menu{
-    height: inherit;
-}
-
-.navbar ol{
-    display: flex;
-    height: inherit;
-}
-
-.navbar ol li{
-    height: inherit;
 }
 
 .portfolio{
@@ -182,8 +149,7 @@ small{
 }
 
 .aboutMeDescription{
-    text-align: left;
-    height: 70px;
+    text-align: justify;
 }
 
 .aboutMeListTitle{
@@ -228,7 +194,7 @@ small{
     font-family: var(--fuente-cuerpo);
 }
 
-.container{
+.container2{
     max-width: 1000px;
     /* width: 100%; */
     /* Toma todo el ancho disponible */
