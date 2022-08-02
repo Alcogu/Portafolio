@@ -57,16 +57,32 @@ h2{
     margin-bottom: 40px;
 }
 
+.container2{
+    max-width: 1000px;
+    flex: 1;
+    /* Se centra contenido */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    text-align: center;
+}
+
 .hero{
-    height: 400px;
-    background-color: black;
+    height: 800px;
+    background: rgb(0, 0, 0);
+    /* background-image: url(); */
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
+    padding-left: 35px;
 }
 
 .heroImg{
-    height: 400px;
+    height: 800px;
     object-fit: contain;
 }
 
@@ -189,21 +205,6 @@ small{
 
 .socialLink.linkedin{
     background-image: url(../img/linkedin.svg);
-}
-
-.container2{
-    max-width: 1000px;
-    /* width: 100%; */
-    /* Toma todo el ancho disponible */
-    flex: 1;
-    /* Se centra contenido */
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    text-align: center;
 }
 
 .footer{
