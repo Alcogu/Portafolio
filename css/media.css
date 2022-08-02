@@ -1,0 +1,145 @@
+/* Escritorio primero, desde el MQ mas grande */
+
+@media screen and (max-width: 1023px) {
+    .portfolio{
+        padding:0;
+    }
+    .container2{
+        padding: 0 1em;
+    }
+    h1{
+        background: rgba(0,0,0,.5)
+    }
+    .hero{
+        /* alto dinamico */
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .heroImg{
+        position: absolute;
+        z-index: 1;
+        /* con esto el elemento se estira en todas las dimensiones */
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1{
+        font-size: 2em;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 1.2em;
+        margin: .5em 0;
+      }
+    .container2{
+        padding: 0 1em;
+    }
+    h1{
+        background: rgba(0,0,0,.5)
+    }
+    .hero{
+        /* alto dinamico */
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .heroImg{
+        position: absolute;
+        z-index: 1;
+        /* con esto el elemento se estira en todas las dimensiones */
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        width: 100%;
+    }
+    .project{
+        display: block;
+    }
+    .projectImgContainer{
+        width: auto;
+        text-align: center;
+    }
+    .projectDetails{
+        width: auto;
+        font-size: 16px;
+    }
+    .projectLenguaje, .projectDate, .projectURL{
+        margin: .4em 0;
+    }
+    .projectTitle{
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .projectLenguaje{
+        font-size: 1em;
+    }
+    .projectDate{
+        font-size: 1em;
+    }
+    .projectURL{
+        font-size: 1em;
+    }
+    .projectDescription{
+        font-size: 1.3em;
+    }
+    .aboutMe{
+        width: auto;
+        /* initial reinicia valores */
+        flex-shrink: initial;
+    }
+    .aboutMe img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1{
+        font-size: 1.5em;
+        background: rgba(0,0,0,.5)
+    }
+    .projectDetails{
+        font-size: 12px;
+    }
+    .aboutMeDetail{
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .contactTitle{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 1.2em;
+        background: rgba(0,0,0,.5)
+    }
+    .hero{
+        padding: 2em 1em;
+    }
+}

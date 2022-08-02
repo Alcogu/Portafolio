@@ -1,0 +1,218 @@
+:root{
+    --color-verde:rgb(13, 156, 37);
+    --color-verde-fondo:rgb(27, 122, 43);
+    --color-gris:rgb(241, 236, 236);
+    --fuente-titulos: 'Fjalla one', sans-serif;
+    --fuente-cuerpo: 'Source Sans pro', sans-serif;
+}
+
+.navbar{
+    background-color: var(--color-verde-fondo);
+    text-align: center;
+    justify-content: center;
+}
+
+#header{
+    padding: 0;
+}
+
+#header img{
+    height: 70px;
+    
+}
+
+.portfolio{
+    background-color: var(--color-gris);
+    padding: 20px;
+}
+
+body{
+    font-family: var(--fuente-cuerpo);
+    background-color: var(--color-gris);
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fuente-titulos);
+}
+
+h1{
+    font-size: 40px;
+    /* espacios entre lineas */
+    line-height: 1.5em;
+    color: white;
+    /*Valores para arriba abajo izquierda y derecha*/
+    margin: 0;
+}
+
+h1 strong {
+    color: var(--color-verde);
+}
+
+h2{
+    color: var(--color-verde);
+    /* Pone todo en mayusculas */
+    text-transform: uppercase;
+    font-family: var(--fuente-cuerpo);
+    margin-bottom: 40px;
+}
+
+.hero{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heroImg{
+    height: 400px;
+    object-fit: contain;
+}
+
+small{
+    font-size: 17px;
+}
+
+.project{
+    /*tiene las propiedades tamaño tipo estilo*/
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projectLenguaje, .projectDate, .projectURL{
+    margin: 10px 0px;
+}
+
+.projectDescription{
+    font-size: 20px;
+}
+
+.project strong{
+    font-family: var(--fuente-titulos);
+    font-size: 15px;
+}
+
+.projectTitle{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;    
+}
+
+.projectDetails{
+    width: 50%;
+}
+
+.projectImgContainer{
+    width: 50%;
+}
+
+.projectImgContainer img{
+    max-width: 100%;
+}
+
+.aboutMeList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMe{
+    margin: 1%;
+    width: 48%;
+    /* para que siempre se ocupe el tamaño designado */
+    flex-shrink: 0;
+    border-radius: 10px;
+    /* genera scroll con hidden oculta lo que se desborde */
+    overflow: hidden;
+    background: #f1f7fa;
+}
+
+.aboutMe img{
+    width: 100%;
+    height: 300px;
+}
+
+.aboutMeDetail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color:white;
+    /* posiciona en sobreposicion */
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutMeDescription{
+    text-align: justify;
+}
+
+.aboutMeListTitle{
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--fuente-titulos);
+}
+
+.contact{
+    background-color: var(--color-verde-fondo);
+    color: white;
+    height: 130px;
+    padding-top:20px;
+    display: block;
+    /* Alineasion dentro del display flex */
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.socialLink{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.socialLink.facebook{
+    background-image: url(../img/facebook.svg);
+}
+
+.socialLink.github{
+    background-image: url(../img/github.svg);
+}
+
+.socialLink.linkedin{
+    background-image: url(../img/linkedin.svg);
+}
+
+.container2{
+    max-width: 1000px;
+    /* width: 100%; */
+    /* Toma todo el ancho disponible */
+    flex: 1;
+    /* Se centra contenido */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--color-verde-fondo);;
+    color: white;
+    text-align: center;
+}
+
+.footer p{
+    margin: 0px;
+    padding: 0px;
+}
