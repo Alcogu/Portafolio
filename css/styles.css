@@ -23,7 +23,6 @@
 
 .portfolio{
     background-color: var(--color-gris);
-    padding: 20px;
 }
 
 body{
@@ -55,6 +54,7 @@ h2{
     text-transform: uppercase;
     font-family: var(--fuente-cuerpo);
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .container2{
