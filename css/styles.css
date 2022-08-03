@@ -59,7 +59,6 @@ h2{
 
 .container2{
     max-width: 1000px;
-    flex: 1;
     /* Se centra contenido */
     margin: 0 auto;
     display: inherit;
@@ -71,18 +70,17 @@ h2{
 }
 
 .hero{
-    height: 800px;
+    height: 500px;
     background: rgb(0, 0, 0);
     /* background-image: url(); */
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    padding-left: 35px;
 }
 
 .heroImg{
-    height: 800px;
+    height: 500px;
     object-fit: contain;
 }
 
