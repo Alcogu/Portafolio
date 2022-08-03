@@ -58,6 +58,7 @@ h2{
 }
 
 .container2{
+    flex: 1;
     max-width: 1000px;
     /* Se centra contenido */
     margin: 0 auto;
