@@ -23,7 +23,6 @@
 
 .portfolio{
     background-color: var(--color-gris);
-    padding: 20px;
 }
 
 body{
@@ -55,18 +54,34 @@ h2{
     text-transform: uppercase;
     font-family: var(--fuente-cuerpo);
     margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container2{
+    flex: 1;
+    max-width: 1000px;
+    /* Se centra contenido */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    text-align: center;
 }
 
 .hero{
-    height: 400px;
-    background-color: black;
+    height: 500px;
+    background: rgb(0, 0, 0);
+    /* background-image: url(); */
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
 
 .heroImg{
-    height: 400px;
+    height: 500px;
     object-fit: contain;
 }
 
@@ -189,21 +204,6 @@ small{
 
 .socialLink.linkedin{
     background-image: url(../img/linkedin.svg);
-}
-
-.container2{
-    max-width: 1000px;
-    /* width: 100%; */
-    /* Toma todo el ancho disponible */
-    flex: 1;
-    /* Se centra contenido */
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    text-align: center;
 }
 
 .footer{
